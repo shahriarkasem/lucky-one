@@ -1,0 +1,72 @@
+[
+    {
+      "id": "1",
+      "name": "The books of shadows",
+      "price": 420,
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb5414a5-56a6-4ee0-ac63-97bbf2dcdb6a/d413phb-06720983-8e95-4441-ae26-7fab8d33cae8.jpg/v1/fill/w_816,h_979,q_70,strp/book_of_shadows_cover_page_1_by_sandgroan_d413phb-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2ViNTQxNGE1LTU2YTYtNGVlMC1hYzYzLTk3YmJmMmRjZGI2YVwvZDQxM3BoYi0wNjcyMDk4My04ZTk1LTQ0NDEtYWUyNi03ZmFiOGQzM2NhZTguanBnIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Mp4NPlCNl8KBw-qkd1oeU_NonQkTyZDUEgZrMnZdD8Y",
+      "quantity": 0
+    },
+      {
+        "id": "2",
+        "name": "The Beast",
+        "price": 220,
+        "img": "https://imgs.search.brave.com/jqrTwc1DXknIZOiutr3LjH6eFFEl_Va9Y_U9cqzPFPQ/rs:fit:232:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC41/VzJQVmQxUjdrczUx/bFoxeUlnYXNBQUFB/QSZwaWQ9QXBp",
+        "quantity": 0
+      },
+      {
+        "id": "3",
+        "name": "Shakespeare, IN FACT",
+        "price": 350,
+        "img": "https://imgs.search.brave.com/cW-W4Ynz5-SQprA5tXZrUwWpzC4GbPCznA1tehmcHSQ/rs:fit:268:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/aUFvVVpYNkRSQzhB/eHA1VFpmVUFRQUFB/QSZwaWQ9QXBp",
+        "quantity": 0
+      },
+      {
+        "id": "4",
+        "name": "Harry Potter",
+        "price": 370,
+        "img": "https://imgs.search.brave.com/12VGuujcqs6suleE481bHthgiQpoVozBL68lGzSofvA/rs:fit:314:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/MW9XOHNqc3FwdVJy/b3lFd1RrQkVRSGFM/TCZwaWQ9QXBp",
+        "quantity": 0
+      },
+      {
+        "id": "5",
+        "name": "The C++ Programming Language",
+        "price": 490,
+        "img": "https://2.bp.blogspot.com/-CEuaUzSjQNc/U9aW9n5xngI/AAAAAAAACmc/mh-994sOx08/s1600/The+C+++Programming+Language+4th+Edition+By+Bjarne+Stroustrup+Pdf+Download.jpg",
+        "quantity": 0
+      },
+      {
+        "id": "6",
+        "name": "Programming in ANSI",
+        "price": 450,
+        "img": "https://donkeytime.org/img/best-c-programming-book-pdf-free-download-4.jpg",
+        "quantity": 0
+      },
+      {
+        "id": "7",
+        "name": "JAVA - Beginner's guide to programming code with java",
+        "price": 460,
+        "img": "https://globalbookclub.s3.amazonaws.com/resources/2881611/java_beginners_guide_to_programming_code_with_java/cover.jpg",
+        "quantity": 0
+      },
+      {
+        "id": "8",
+        "name": "C++ MCQs",
+        "price": 440,
+        "img": "https://imgv2-1-f.scribdassets.com/img/word_document/358113396/original/40314c8b05/1606830424?v=1",
+        "quantity": 0
+      },
+      {
+        "id": "9",
+        "name": "JavaScript Programming",
+        "price": 520,
+        "img": "https://i.pinimg.com/originals/c3/83/32/c383329317b6bfb5368f72a6bc53cc64.png",
+        "quantity": 0
+      },
+      {
+        "id": "10",
+        "name": "Just Mercy",
+        "price": 330,
+        "img": "https://upload.wikimedia.org/wikipedia/en/e/ef/Just_Mercy_2014_Cover.jpg",
+        "quantity": 0
+      }
+]

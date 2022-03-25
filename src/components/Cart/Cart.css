@@ -1,0 +1,22 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius:50px 0px 0px 0px;
+}
+.choose-btn{
+    width: 60%;
+    border: none;
+    background-color: rgba(255, 127, 80, 0.719);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.cart-btn-txt{
+    font-weight: 500;
+    color: white;
+}

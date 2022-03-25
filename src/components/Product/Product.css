@@ -1,19 +1,36 @@
 .products{
     background-color: white;
+    border: 1px solid #95A0A7;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
 }
 .product-info{
     padding-left: 15px;
 }
 .products img{
-    width: 100%;
+    width: 95%;
     height: 300px;
+    padding: 5px;
+
 }
 .cart-btn{
     width: 100%;
     border: none;
     background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
 }
 .btn-text{
     font-weight: 900;
     color: white;
+}
+.icon{
+    color: whitesmoke;
+    padding-left: 10px;
 }

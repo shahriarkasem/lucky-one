@@ -47,13 +47,27 @@
     font-weight: 500;
     color: white;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .shop-container{
         display: flex;
         flex-direction: column-reverse;
     }
     .products-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .cart-container{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .shop-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .products-container{
+        grid-template-columns: repeat(1, 1fr);
     }
     .cart-container{
         margin-left: 50px;

@@ -42,7 +42,7 @@ const Shop = () => {
                 <h1>Selected items</h1>
                 {
                     cart.map((item) => (
-                        <h3 className='book-list' key={item.id}>{item.name}</h3>
+                        <h3 className='book-list' key={item.id}><img className='book-img' src={item.img} alt="" />{item.name}</h3>
                     ))
                 }
                 <br />

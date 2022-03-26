@@ -25,6 +25,12 @@
     padding-left: 10px;
     color: blue;
 }
+.book-img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
 .choose-btn{
     width: 60%;
     border: none;

@@ -23,7 +23,7 @@ const Shop = () => {
         }
     }
     const chooseOneItem = () => {
-        const length = Math.floor(Math.random() * cart.length);;
+        const length = Math.floor(Math.random() * cart.length);
         const newItem = [cart[length]];
         setCart(newItem);
     }

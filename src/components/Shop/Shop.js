@@ -22,7 +22,6 @@ const Shop = () => {
         else{
             alert('You already selected this item once!!!');
         }
-        
     }
 
     const chooseOneItem = () => {

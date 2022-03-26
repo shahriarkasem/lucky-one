@@ -15,8 +15,13 @@ const Shop = () => {
     const handleAddToCart = (selectedProduct) => {
         const exists = cart.find(product => product.id === selectedProduct.id);
         if(!exists){
-            const newCart = [...cart, selectedProduct];
-            setCart(newCart);
+            if (cart.length >= 4) {
+                alert("You can't select more than 4")
+            }
+            else{
+                const newCart = [...cart, selectedProduct];
+                setCart(newCart);
+            }
         }
         else{
             alert('You already selected this item once!!!');

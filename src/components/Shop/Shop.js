@@ -3,7 +3,6 @@ import { Product } from '../Product/Product';
 import './Shop.css';
 
 const Shop = () => {
-
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
 
@@ -23,13 +22,15 @@ const Shop = () => {
             alert('You already selected this item once!!!');
         }
     }
-
     const chooseOneItem = () => {
         const length = Math.floor(Math.random() * cart.length);;
         const newItem = [cart[length]];
         setCart(newItem);
     }
-
+    const chooseAgain = () => {
+      let newCart = [];
+      setCart(newCart);
+    }
 
     return (
         <div className='shop-container'>
@@ -53,7 +54,7 @@ const Shop = () => {
                 <br />
                 <button className='choose-btn' onClick={() => chooseOneItem()}><p className='cart-btn-txt'>CHOOSE 1 FOR ME</p></button>
                 <br />
-                <button className='choose-btn'><p className='cart-btn-txt'>CHOOSE AGAIN</p></   button>
+                <button className='choose-btn' onClick={() => chooseAgain()}><p className='cart-btn-txt'>CHOOSE AGAIN</p></   button>
                 </div>
             </div>
         </div>

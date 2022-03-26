@@ -26,6 +26,12 @@ const Shop = () => {
         
     }
 
+    const chooseOneItem = () => {
+        const length = cart[Math.random(length)];
+        console.log(cart[0]);
+        console.log(cart[length]);
+    }
+
 
     return (
         <div className='shop-container'>
@@ -47,9 +53,9 @@ const Shop = () => {
                     ))
                 }
                 <br />
-                <button className='choose-btn'><p className='cart-btn-txt'>CHOOSE 1 FOR ME</p></button>
+                <button className='choose-btn' onClick={() => chooseOneItem()}><p className='cart-btn-txt'>CHOOSE 1 FOR ME</p></button>
                 <br />
-                <button className='choose-btn'><p           className='cart-btn-txt'>CHOOSE AGAIN</p></   button>
+                <button className='choose-btn'><p className='cart-btn-txt'>CHOOSE AGAIN</p></   button>
                 </div>
             </div>
         </div>

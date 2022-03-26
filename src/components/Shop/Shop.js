@@ -39,6 +39,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
+                <div className='cart'>
                 <h1>Selected items</h1>
                 {
                     cart.map((item) => (
@@ -49,6 +50,7 @@ const Shop = () => {
                 <button className='choose-btn'><p className='cart-btn-txt'>CHOOSE 1 FOR ME</p></button>
                 <br />
                 <button className='choose-btn'><p           className='cart-btn-txt'>CHOOSE AGAIN</p></   button>
+                </div>
             </div>
         </div>
     );

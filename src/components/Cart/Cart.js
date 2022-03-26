@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    console.log(props.cart.name)
+    // console.log(props.cart.name)
     const {name, img} = props.cart;
 
     return (
@@ -10,7 +10,6 @@ const Cart = (props) => {
             <h1>Selected items</h1>
             <div className='cart-products'>
                  <div className="product-div">
-                     <img src={img} alt="" />
                      <h4>{name}</h4>
                  </div>
             </div>

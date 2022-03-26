@@ -12,11 +12,6 @@
     flex-direction: row;
     align-items: center;
 }
-.cart-products img{
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
-}
 .choose-btn{
     width: 60%;
     border: none;

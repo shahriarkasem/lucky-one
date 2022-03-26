@@ -9,15 +9,15 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
     useEffect( () =>{
-        fetch('https://shahriarkasem.github.io/api-repo/products.json')
+        fetch('products.json')
         .then(res=> res.json())
         .then(data => setProducts(data))
     }, []);
 
     const handleAddToCart = (product) => {
-        console.log(product);
-        const newCart = [...cart, product];
-        setCart(newCart);
+        // console.log(product);
+        // const newCart = [...cart, product];
+        setCart(product);
     }
 
 
@@ -33,7 +33,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
